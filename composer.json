@@ -1,0 +1,32 @@
+{
+    "name": "hotelmah/write-file",
+    "type": "library",
+    "description": "Write File is a rudimentary PHP write a file to disk class. Data can be added incrementally which can then be written at once to a file. This library is used by the MySQL Table Editor project.",
+    "keywords": ["Writing", "Files", "PHP"],
+    "homepage": "https://github.com/hotelmah/write-file",
+    "license": "GPL-3.0-only",
+    "autoload": {
+        "psr-4": {
+            "Hotelmah\\WriteFile\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kevin Pereira",
+            "email": "kevin@kevinp.net",
+            "homepage": "https://github.com/hotelmah",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+         "php": ">=7.0.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/hotelmah/write-file"
+        }
+    ]
+}
