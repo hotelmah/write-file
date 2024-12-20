@@ -7,7 +7,7 @@
     "license": "GPL-3.0-only",
     "autoload": {
         "psr-4": {
-            "Hotelmah\\WriteFile\\": "src/"
+            "WriteFile\\": "src/"
         }
     },
     "authors": [
@@ -18,10 +18,10 @@
             "role": "Developer"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
-         "php": ">=7.0.0"
+        "php": ">=7.0.0"
     },
     "repositories": [
         {

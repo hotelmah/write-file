@@ -1,5 +1,5 @@
 ## About
-This package adds data incrementally that can then be written at once to a file. This library is used by the MySQL Table Editor project referenced [here](https://github.com/hotelmah/mysql-table-editor).
+This package has a saveData method that can add data incrementally into memory which can then be written at once to a file using the write method. This library is used by the MySQL Table Editor project referenced [here](https://github.com/hotelmah/mysql-table-editor).
 
 
 ## Notice
