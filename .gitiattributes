@@ -1,2 +1,2 @@
-.gitattributes
-WriteFile-Test-1.php
+.gitattributes export-ignore
+WriteFile-Test-1.php export-ignore
